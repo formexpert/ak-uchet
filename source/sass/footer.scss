@@ -1,0 +1,24 @@
+.footer__top {
+  background: #4F4F4F;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.footer__wrap {
+  display: flex;
+}
+
+.footer__copyright {
+  background-color: #333333;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.footer__copyright-text {
+  font-family: $roboto;
+  font-size: 12px;
+  line-height: 100%;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}

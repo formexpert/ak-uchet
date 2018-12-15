@@ -1,0 +1,42 @@
+.main-nav {
+  display: flex;
+  padding-left: 54px;
+  padding-bottom: 35px;
+}
+
+.main-nav__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: $orange;
+  padding: 8px 29px 9px 35px;
+  border-radius: 4px;
+}
+
+.main-nav__item:not(:first-child) {
+  padding-left: 24px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    left: 11px;
+    top: 9px;
+  }
+}
+
+.main-nav__link {
+  font-family: $roboto;
+  font-size: 15px;
+  line-height: 15px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+

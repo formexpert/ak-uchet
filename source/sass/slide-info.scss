@@ -1,0 +1,32 @@
+.slide-info {
+  background: linear-gradient(180deg, rgba(135, 174, 242, 0.7));
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.slide-info__title {
+  font-family: $roboto;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+.slide-info__subtitle {
+  font-family: $roboto;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.slide-info__text {
+  font-family: $roboto;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.7;
+}

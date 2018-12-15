@@ -1,0 +1,49 @@
+.location {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.location__text {
+  font-family: $roboto;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  width: 251px;
+  padding-left: 55px;
+  position: relative;
+
+  &--address {
+    margin-right: 41px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 42px;
+      height: 42px;
+      background-image: url("../img/icon-location.png");
+      top: -6px;
+      left: 6px;
+    }
+  }
+
+  &--time {
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 42px;
+      height: 42px;
+      background-image: url("../img/icon-time.png");
+      top: -6px;
+      left: 3px;
+    }
+  }
+}
+

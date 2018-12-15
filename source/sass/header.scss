@@ -1,0 +1,15 @@
+.header__top {
+  display: flex;
+  padding-left: 91px;
+  padding-bottom: 17px;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: column;
+  padding-top: 13px;
+}
+
+.header__bottom {
+  background-color: $blue-header;
+}
